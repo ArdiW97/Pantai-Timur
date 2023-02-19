@@ -1,0 +1,146 @@
+ /* CSS styles for styling the page */
+ .custom-container{
+  padding-right: 0;
+  padding-left: 0;
+  width: 100%;
+}
+@media (min-width: 1600px) {
+  .container {
+      max-width: 1600px;
+  }
+}
+@media (min-width: 1900px) {
+  .container {
+      max-width: 1900px;
+  }
+}
+@media (min-width: 768px) {
+.container {
+  width: 750px;
+}
+}
+@media (min-width: 992px) {
+.container {
+  width: 970px;
+}
+}
+@media (min-width: 1200px) {
+.container {
+  width: 1180px;
+}
+}
+@media (min-width: 390px) {
+.container {
+  width: 390px;
+}
+}
+ 
+ body {
+  background-color: whitesmoke;
+ }
+
+ #Line {
+  border-width: 3px;
+  border-style: solid;
+  color:black;
+ }
+
+ #bgblue {
+  background-color: aqua;
+  color: black;
+  font-size: 20px;
+  font-weight: 100;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 50px;
+  text-align: center;
+  border-width: 2px;
+  border-radius: 30px;
+}
+
+ #copyright {
+  color: #fff;
+  background-color: blue;
+  text-align: center;
+  width: 100%;
+ 
+ }
+
+ iframe {
+  width: 50%;
+  height: 400px;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ section {
+  background: #20466d;
+  color: white;
+  font-size: 13px;
+  width: 100%;
+  font-style: normal;
+ }
+
+ #Input {
+  width: 50%;
+ }
+
+  .A {
+    color: black;
+    background-color:whitesmoke;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+.row h3 {
+  margin-top: -50px
+}
+  .G {
+    position: relative;
+    top: 25px;
+    max-width: 100%;
+    width: 400px;
+    height: 250px;
+  }
+
+footer {
+  background-color: black;
+}
+  footer ul li {
+    list-style: none;
+  }
+  footer ul h5 {
+    color: #EEEEEE;
+    font-weight: bold;
+    font-family: itim;
+  }
+  footer ul li a {
+    color: #EEEEEE;
+    text-decoration: none;
+    font-family: itim;
+  }
+  .col-auto {
+    color: #EEEEEE;
+    font-family: itim;
+  }
+  .carousel-inner img {
+    max-height: 450px;
+  }
+  .kartu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card{
+    margin: 10px;
+  }
+
+
+  
